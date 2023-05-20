@@ -1,0 +1,84 @@
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #000;
+}
+.fondoBlanco{
+    position: relative;
+    width: 400px;
+    margin: 7% auto;
+    
+    background-image: url('https://cdn.pixabay.com/photo/2018/04/04/22/14/abstract-3291293_640.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;  
+    
+}
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.681);
+}
+.avatar{
+    width: 60px;
+    margin: 20px auto 0 auto;
+    
+}
+.avatar img{
+    width: 100%;
+    border: 3px solid #fff;
+    border-radius: 100%;
+}
+h2{
+    color: #fa0303;
+    text-align: center;
+}
+#formInicioSesion{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+label{margin-left: 46px;
+    font-size: small;
+    font-weight: 500;
+    margin-bottom: -6px;
+}
+.input{
+    width: 300px;
+    margin: 0 auto 20px auto;
+}
+.hrefPass{
+    margin-left: 46px;
+    font-size: small;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.botonRojo{
+    color: #fdfdfd;
+    background-color: #ff0000;
+    border: 2px solid rgb(230, 14, 14);
+    height: 30px;
+    font-weight: bold;
+    box-shadow: 3px 3px 4px 2px rgb(182, 181, 181);
+}
+.botonGris{
+    color: #fdfdfd;
+    background-color: #858282;
+    border: 2px solid rgb(125, 124, 124);
+    height: 30px;
+    font-weight: bold;
+    box-shadow: 3px 3px 4px 2px rgb(182, 181, 181);
+    margin-bottom: 70px;
+}
+.pLogin{
+    margin: auto auto 5px 50px;
+}
